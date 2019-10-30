@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <div class="one">
+<h1 style="background-color:#F40B0B; color: yellow"> Hoang The Viet</h1>
+      <h1>{{so}}</h1>
+      <input (click) = "CONG()" type ="button" value = "+" />
+      <input (click)= "Tru()"  type="button" value ="-" /> <br><br>
+      <img (mouseover) ="Jack($event)"
+       (mouseout) ="MinhVuong($event)"
+      src ="{{hinh}}"/>
+</div>
+
+<div class="casi">
+  <h3> Ho ten: {{hoten}} </h3>
+  <h3> Nam Sinh: {{namsinh}}</h3>
+  <h3> Tuoi: {{2019 - namsinh}}</h3>
+  <h3> Movie: {{sothich.movie}} - Code:{{sothich.code}}</h3>
+  <h4> Phan tu thu 1 : {{mang[1]}} - {{mang.length}} </h4>
+
+</div>
+</body>
+</html>
